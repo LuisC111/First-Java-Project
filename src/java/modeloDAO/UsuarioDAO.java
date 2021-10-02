@@ -11,7 +11,7 @@ public class UsuarioDAO extends Conexion implements Crud {
     private Connection conexion;
     private PreparedStatement puente;
     private ResultSet mensajero;
-    private boolean operacion=false;
+    private boolean operacion = false;
     private String sql;
     private String resultado;
     private UsuarioVO Modelo= new UsuarioVO();
